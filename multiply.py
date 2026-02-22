@@ -1,23 +1,18 @@
-#!/usr/bin/env python3
-"""Multiply two numbers provided by user input."""
+/**
+ * Multiply 6 by 4 and return the result.
+ * Can be used as a module or run directly with Node.js.
+ */
 
+// Function that multiplies 6 by 4
+function multiplySixByFour() {
+  return 6 * 4;
+}
 
-def main():
-    """Get two numbers from user, multiply them, and print the result."""
-    try:
-        a_str = input("Enter the first number: ")
-        b_str = input("Enter the second number: ")
+// Export for use as a module
+module.exports = { multiplySixByFour };
 
-        a = float(a_str)
-        b = float(b_str)
-
-        product = a * b
-        print(f"Result: {product}")
-
-    except ValueError:
-        print("Error: Please enter valid numeric values.")
-        raise SystemExit(1)
-
-
-if __name__ == "__main__":
-    main()
+// Run directly (print result when executed as a script)
+if (require.main === module) {
+  const result = multiplySixByFour();
+  console.log(`Result: ${result}`);
+}
