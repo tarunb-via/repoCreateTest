@@ -1,6 +1,6 @@
 # repoCreateTest
 
-A simple repository demonstrating a hello world script.
+A simple repository demonstrating a random joke script.
 
 ## Run
 
