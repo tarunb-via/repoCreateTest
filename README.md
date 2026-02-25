@@ -6,6 +6,7 @@ A simple repository demonstrating a random joke script.
 
 ```bash
 python3 hello_world.py
+python3 "2+2=10.py"
 ```
 
 ## Usage
