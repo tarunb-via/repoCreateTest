@@ -17,3 +17,11 @@ python3 toddler_stories.py
 from add_two_numbers import add
 print(add(1, 2))  # 3
 ```
+
+## Tests
+
+Run the unit tests with:
+
+```bash
+python -m unittest -q
+```
